@@ -1,4 +1,4 @@
-package firstProject;
+package basic;
 
 public class NumberExample {
 	public static void main(String[] args) {
@@ -6,6 +6,6 @@ public class NumberExample {
 		byte eng = 50;
 		
 		byte sum = (byte) (math + eng);
-		System.out.println("µÎÁ¡¼öÀÇ ÇÕ: " + sum);
+		System.out.println("ë‘ì ìˆ˜ì˜ í•©: " + sum);
 	}
 }

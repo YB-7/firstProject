@@ -1,9 +1,9 @@
-package firstProject;
+package basic;
 
 public class StringExample {
 	public static void main(String[] args) {
 		String name = "Hongkildong";
 		int age = 16;
-		System.out.println("ÀÌ¸§Àº " + name + "ÀÌ°í ³ªÀÌ´Â" + age + "ÀÔ´Ï´Ù.");
+		System.out.println("ì´ë¦„ì€ " + name + "ì´ê³  ë‚˜ì´ëŠ”" + age + "ì…ë‹ˆë‹¤.");
 	}
 }
