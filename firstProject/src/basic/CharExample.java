@@ -2,15 +2,15 @@ package basic;
 
 public class CharExample {
 	public static void main(String[] args) {
-		char c1 = 'A';		//���ڸ� ���� ����
-		char c2 = 65;		//10������ ����
-		char c3 = '\u0041';	//16������ ����
+		char c1 = 'A';		//문자를 직접 저장
+		char c2 = 65;		//10진수로 저장
+		char c3 = '\u0041';	//16진수로 저장
 		
-		char c4 = '��';		//���ڸ� ���� ����
-		char c5 = 44032;	//10������ ����
-		char c6 = '\uac00';	//16������ ����
+		char c4 = '가';		///문자를 직접 저장
+		char c5 = 44032;	//10진수로 저장
+		char c6 = '\uac00';	//16진수로 저장
 		
-		int uniCode = c1;	//�����ڵ� ���
+		int uniCode = c1;	//유니코드 얻기
 		
 		System.out.println(c1);
 		System.out.println(c2);
