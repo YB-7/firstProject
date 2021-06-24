@@ -1,4 +1,4 @@
-package firstProject;
+package basic;
 
 public class ByteExample {
 	public static void main(String[] args) {
@@ -12,6 +12,6 @@ public class ByteExample {
 		int numb2 = 13;
 		int numb3 = 4;
 		int rem = numb2 % numb3;
-		System.out.println(numb3 + "·Î ³ª´« ³ª¸ÓÁö: " + rem);
+		System.out.println(numb3 + "ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€: " + rem);
 	}
 }
