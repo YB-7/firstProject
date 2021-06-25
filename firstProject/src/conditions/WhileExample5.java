@@ -23,7 +23,8 @@ public class WhileExample5 {
 		// You win...
 		// You lose...
 		// Draw
-
+		
+		// 컴퓨터가 가위일 때
 		if (rsp.equals("가위")) {
 			if (str.equals("바위")) {
 				System.out.println("You win!");
@@ -34,6 +35,7 @@ public class WhileExample5 {
 			} else {
 				System.out.println("잘못된 입력입니다.");
 			}
+		// 컴퓨터가 바위일 때
 		} else if (rsp.equals("바위")) {
 			if (str.equals("보")) {
 				System.out.println("You win!");
@@ -44,7 +46,7 @@ public class WhileExample5 {
 			} else {
 				System.out.println("잘못된 입력입니다.");
 			}
-
+		//컴퓨터가 보일 때
 		} else {
 			if (str.equals("가위")) {
 				System.out.println("You win!");
