@@ -50,7 +50,7 @@ public class PilatesApp {
 			}
 		}
 		memberID++;
-
+		// 회원정보가 삭제되어도 회원ID는 무조건 가장 큰 값 다음 번호
 		return memberID;
 	}
 
