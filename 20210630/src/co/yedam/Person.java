@@ -43,8 +43,55 @@ public class Person {
 		System.out.println(
 				"[이름: " + this.name + " 나이: " + this.age + " 키: " + this.height + " 혈액형: " + this.bloodType + "]");
 	}
-	
+
 	public String getInfo() {
 		return "{이름: " + this.name + " 나이: " + this.age + " 키: " + this.height + " 혈액형: " + this.bloodType + "}";
+	}
+
+	public int getSum(int n1, int n2) {
+		return n1 + n2;
+	}
+
+	// 10 ~ 20 사이의 임의값을 생성해주는 메소드
+	public int getFrom10To20() {
+		return (int) (Math.random() * 10) + 10;
+	}
+
+	// 지정됨 범위 사이의 임의값을 생성해주는 메소드
+	public int getFromTo(int n1, int n2) {
+		return (int) (Math.random() * (n2 - n1)) + n1;
+	}
+
+	// 매개값으로 문자(이름), 숫자(나이) => 제 이름은 ?? 이고 나이는 ?? 입니다.
+	// getNameAndAge()
+	public String getNameAndAge(String name, int age) {
+		return "제 이름은 " + name + "이고 나이는 " + age + "살입니다.";
+	}
+	
+	public Person createNewPerson(String name, int age) {
+		Person psn = new Person();
+		psn.setName(name);
+		psn.setAge(age);
+		
+		return psn;
+	}
+	
+	public Person createNewPerson(String name, int age, double height) {	// 오버로딩
+		Person psn = new Person();
+		psn.setName(name);
+		psn.setAge(age);
+		psn.setHeight(height);
+		
+		return psn;
+	}
+	
+	public Person createNewPerson(String name, int age, double height, String bloodType) {	// 오버로딩
+		Person psn = new Person();
+		psn.setName(name);
+		psn.setAge(age);
+		psn.setHeight(height);
+		psn.setBloodType(bloodType);
+		
+		return psn;
 	}
 }
