@@ -7,6 +7,15 @@ public class Member {
 	private String memberBirth;
 	private Gender memberGen;
 
+	public Member(int memberID, String memberName, String memberPhone, String memberBirth, Gender memberGen) {
+		super();
+		this.memberID = memberID;
+		this.memberName = memberName;
+		this.memberPhone = memberPhone;
+		this.memberBirth = memberBirth;
+		this.memberGen = memberGen;
+	}
+
 	public int getMemberID() {
 		return memberID;
 	}
