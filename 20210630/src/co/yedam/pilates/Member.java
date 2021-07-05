@@ -1,12 +1,26 @@
 package co.yedam.pilates;
 
 public class Member {
+
 	private int memberID;
 	private String memberName;
 	private String memberPhone;
 	private String memberBirth;
 	private Gender memberGen;
 
+	public Member() {
+		this.memberID = 100;
+		this.memberName= "홍길동";
+		this.memberPhone = "010";
+	}
+
+	public Member(int memberID, String memberName, String memberPhone) {
+//		super();
+//		this.memberID = memberID;
+//		this.memberName = memberName;
+//		this.memberPhone = memberPhone;
+	}
+	
 	public Member(int memberID, String memberName, String memberPhone, String memberBirth, Gender memberGen) {
 		super();
 		this.memberID = memberID;
