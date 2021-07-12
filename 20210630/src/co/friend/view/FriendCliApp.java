@@ -2,6 +2,7 @@ package co.friend.view;
 
 import java.util.List;
 
+
 import co.friend.access.FriendAccess;
 import co.friend.access.FriendList;
 import co.friend.common.ScannerUtil;
